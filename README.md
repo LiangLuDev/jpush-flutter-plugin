@@ -47,13 +47,7 @@ android: {
 
 ##### iOS:
 
-- 在 xcode8 之后需要点开推送选项： TARGETS -> Capabilities -> Push Notification 设为 on 状态
-
-### 使用
-
-```dart
-import 'package:jpush_flutter/jpush_flutter.dart';
-```
+- 由于在Flutter 1.17 - 1.20 版本无法通过编译，因此放弃在iOS上的推送，删除相关代码，采用原生。
 
 ### APIs
 
